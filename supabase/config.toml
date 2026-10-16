@@ -1,0 +1,10 @@
+project_id = "tuf-labdesk"
+
+[functions.verify-class-password]
+verify_jwt = false
+
+[functions.create-signed-url]
+verify_jwt = false
+
+[functions.revoke-class-access]
+verify_jwt = true
